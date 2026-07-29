@@ -18,7 +18,7 @@ The pipeline covers data cleaning, exploratory data analysis (EDA), feature engi
 
 - **Source:** `loan_approval_dataset.csv`
 - **Size:** 4,269 records × 13 features
-- **Target:** `loan_status` (Approved / Rejected) — 62% / 38% split
+- **Target:** `loan_status` (Approved / Rejected) — based on CBIL Score
 - **No missing values**; 28 records with invalid negative asset values were corrected during cleaning
 
 **Feature groups:**
